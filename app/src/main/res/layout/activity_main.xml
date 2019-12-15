@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvX"
+        android:textSize="60sp"
+        android:text="0"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvSeparator"
+        android:textSize="60sp"
+        android:text=" : "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvY"
+        android:textSize="60sp"
+        android:text="0"/>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/new_game"
+            android:onClick="newGame"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/llTable"
+        >
+                <Button
+                    android:text=""
+                    android:id="@+id/a1"
+                    android:textSize="60sp"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+
+                    android:onClick="a1"/>
+                <Button
+
+                    android:text=""
+                    android:id="@+id/a2"
+                    android:textSize="60sp"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:onClick="a2"/>
+                <Button
+
+                    android:text=""
+                    android:id="@+id/a3"
+                    android:textSize="60sp"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:onClick="a3"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+                <Button
+                    android:text=""
+                    android:textSize="60sp"
+                    android:id="@+id/b1"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:onClick="b1"/>
+                <Button
+                    android:text=""
+                    android:textSize="60sp"
+                    android:id="@+id/b2"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:onClick="b2"/>
+                <Button
+                    android:text=""
+                    android:id="@+id/b3"
+                    android:textSize="60sp"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:onClick="b3"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+                <Button
+                    android:text=""
+                    android:id="@+id/c1"
+                    android:textSize="60sp"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:onClick="c1"/>
+                <Button
+                    android:text=""
+                    android:id="@+id/c2"
+                    android:textSize="60sp"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:onClick="c2"/>
+                <Button
+                    android:text=""
+                    android:id="@+id/c3"
+                    android:textSize="60sp"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:onClick="c3"/>
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+
